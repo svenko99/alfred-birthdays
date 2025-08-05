@@ -3,7 +3,7 @@
 
 A simple Alfred workflow to manage birthdays stored in a CSV file.
 
-![Preview](./assets/video.mp4)
+![](assets/video.mp4)
 
 
 ## 🔧 Main Features
