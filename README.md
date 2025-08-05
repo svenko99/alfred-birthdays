@@ -1,7 +1,7 @@
 
 # 🎂 Alfred Birthdays Workflow
 
-A simple Alfred workflow to manage birthdays stored in a CSV file.
+A simple [Alfred](https://www.alfredapp.com/) workflow to manage birthdays stored in a CSV file.
 
 <img src="assets/picture1.png" alt="demo picture 1" width="80%" height="auto">
 
