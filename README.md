@@ -9,8 +9,9 @@ A simple [Alfred](https://www.alfredapp.com/) workflow to manage birthdays store
 
 ## 🔧 Main Features
 
-- **`bday`** – search for birthdays by name  
-	- Press `Shift + Enter` on a result to delete it.
+- **`bday`** – search for birthdays by name
+	- If no search query is entered, all birthdays are shown.
+	- Press `Shift + Enter` on an entry to delete it.
 - **`add bday John Doe,9/3/2003`** – add a new person
 - **`edit bday`** – open `birthdays.csv` in text editor for bulk editing
 
