@@ -3,7 +3,9 @@
 
 A simple Alfred workflow to manage birthdays stored in a CSV file.
 
-![](assets/demo.gif)
+![](assets/picture1.png)
+
+![](assets/picture2.png)
 
 
 ## 🔧 Main Features
