@@ -52,3 +52,7 @@ Install [⤓ Alfred Birthdays Workflow](https://github.com/svenko99/alfred-birth
 The workflow includes a precompiled `alfred-birthday` binary. If macOS blocks it, run `sudo xattr -rd com.apple.quarantine ./alfred-birthday` inside workflow's directory.
 
 Alternatively, if you have [Xcode Command Line Tools](https://www.geeksforgeeks.org/techtips/how-to-install-xcode-command-line-tools/), you can build the binary yourself via Alfred: `build bday`. This will run `swiftc src/*.swift -o ./alfred-birthday`
+
+## 💭 Why Swift?
+
+The workflow could have been done in Python much more easily. I made the workflow in Swift because I wanted to learn the language. I've grown quite fond of Swift. It has very good support for lambda functions (closures), interesting things like `extensions` and more. Swift also speeds up the execution, which is not really crucial for this workflow. The only thing that bothers me is that I would have to pay [$99 for a developer account](https://developer.apple.com/help/account/membership/program-enrollment/) to be able to sign the binary file. 
