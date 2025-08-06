@@ -158,8 +158,17 @@ struct PersonStore {
         )
 
         do {
-            let handle = try FileHandle(forWritingTo: fileURL)
+            let handle = try FileHandle(forUpdating: fileURL)
+            defer { handle.closeFile() }
+
             handle.seekToEndOfFile()
+
+            // Preveri, če zadnji znak ni \n, in ga po potrebi dodaj
+            let fileData = try Data(contentsOf: fileURL)
+            if let lastByte = fileData.last, lastByte != UInt8(ascii: "\n") {
+                handle.write("\n".data(using: .utf8)!)
+            }
+
             for person in people {
                 let line =
                     "\(person.name),\(formatter.string(from: person.birthDate))\n"
@@ -167,7 +176,6 @@ struct PersonStore {
                     handle.write(data)
                 }
             }
-            handle.closeFile()
         } catch {
             throw PersonStoreError.CSVWriteError(error: "\(error)")
         }
