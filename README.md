@@ -47,4 +47,8 @@ George,5/11/1999
 
 ## 📦 Installation
 
-Install Alfred Birthdays Workflow from the repository.
+Install [⤓ Alfred Birthdays Workflow](https://github.com/svenko99/alfred-birthdays/releases/latest/download/Birthdays.alfredworkflow) from the repository.
+
+The workflow includes a precompiled `alfred-birthday` binary. If macOS blocks it, run `sudo xattr -rd com.apple.quarantine ./alfred-birthday` inside workflow's directory.
+
+Alternatively, if you have [Xcode Command Line Tools](https://www.geeksforgeeks.org/techtips/how-to-install-xcode-command-line-tools/), you can build the binary yourself via Alfred: `build bday`. This will run `swiftc src/*.swift -o ./alfred-birthday`
