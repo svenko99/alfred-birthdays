@@ -5,12 +5,14 @@ A simple [Alfred](https://www.alfredapp.com/) workflow to manage birthdays store
 
 <img src="assets/picture1.png" alt="demo picture 1" width="80%" height="auto">
 
+
 <img src="assets/picture2.png" alt="demo picture 1" width="80%" height="auto">
 
 ## 🔧 Main Features
 
 - **`bday`** – search for birthdays by name
 	- If no search query is entered, all birthdays are shown.
+ 	- **The output format is: Name, Days until next birthday, Age on next birthday.**
 	- Press `Shift + Enter` on an entry to delete it.
 - **`add bday John Doe,9/3/2003`** – add a new person
 - **`edit bday`** – open `birthdays.csv` in text editor for bulk editing
