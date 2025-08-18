@@ -16,6 +16,7 @@ A simple [Alfred](https://www.alfredapp.com/) workflow to manage birthdays store
 	- Press `Shift + Enter` on an entry to delete it.
 - **`add bday John Doe,9/3/2003`** – add a new person
 - **`edit bday`** – open `birthdays.csv` in text editor for bulk editing
+- **`build bday`** – build workflow program (requires [Xcode Command Line Tools](https://www.geeksforgeeks.org/techtips/how-to-install-xcode-command-line-tools/))
 
 ## 📂 File format
 
