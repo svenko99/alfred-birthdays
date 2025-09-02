@@ -62,4 +62,5 @@ The workflow could have been done in Python much more easily. I made the workflo
 
 ## ✔️ To-do
 
-- [ ] Remove filtering birthdays, because Alfred handles that. Adjust `CommandParser.swift` and `Handlers.swift`
+- [ ] Remove filtering birthdays, because Alfred handles that. Adjust `CommandParser.swift` and `Handlers.swift`. Exclude `$1` from Script Filter of `bday`
+- [ ] Add `:` to keyword for building binary (`build bday`)
