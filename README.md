@@ -52,10 +52,6 @@ George,5/11/1999
 
 Install [⤓ Alfred Birthdays Workflow](https://github.com/svenko99/alfred-birthdays/releases/latest/download/Birthdays.alfredworkflow) from the repository.
 
-## 💭 Why Swift?
-
-The workflow could have been done in Python much more easily. I made the workflow in Swift because I wanted to learn the language. I've grown quite fond of Swift. It has very good support for lambda functions (closures), interesting things like `extensions` and more. Swift also speeds up the execution, which is not really crucial for this workflow. ~The only thing that bothers me is that I would have to pay [$99 for a developer account](https://developer.apple.com/help/account/membership/program-enrollment/) to be able to sign the binary file.~ **I actually paid for it, so now the binary file is signed and notorized.**
-
 ## ✔️ To-do
 
 - [ ] Remove filtering birthdays, because Alfred handles that. Adjust `CommandParser.swift` and `Handlers.swift`. Exclude `$1` from Script Filter of `bday`
